@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: liveness
-    image: registry.k8s.io/liveness
+    image: registry.k8s.io/liveness:latest
     args:
     - /server
     livenessProbe:
